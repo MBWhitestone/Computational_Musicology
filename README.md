@@ -188,12 +188,12 @@ function from `R`.
 The following plot shows the distribution of different properties of a musical track. Because some properties had a few far outliers they had to be converted on a logaritmic scale (and renormalised between 0 and 1), which is shown on the right:
 
 <p float="left">
-  <img src="/doc/box_normal.png" width="75%" />
-  <img src="/doc/box_log.png" width="24.5%" />
+  <img src="doc/box_normal.png" width="75%" alt="box 1"/>
+  <img src="doc/box_log.png" width="24%" alt="box 2"/>
 </p>
 
 The next visulalisation plots the different kinds of music on the arousal-valence plane:
-![](doc/avplane.png)
+![Arousal Valence Plane](doc/avplane.png)
 
 ## Analysis
 There are already some interesting findings visible like the difference in danceability of religious and non religious music. On average religious music is less danceable but more acoustic compared to non-religious music. Speechiness and duration are quitte the same with exceptions to many outliers. On most properties Religious music has a very wide spread. Tempo is the same on average, however there is more spread in religious music.
