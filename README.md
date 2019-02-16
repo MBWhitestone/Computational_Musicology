@@ -13,6 +13,8 @@ Music has been around since the history of mankind. However, where most of today
 To be able to answer the research question one has to compare religious music with
 non-religious music. This is implemented in `R` using the `spotifyr` module which gathers data from two types of playlists: _religious_ and _non-religious_. Both corpuses are more usefull for machine learning purposes, as for example classification, if they contain many songs. Therefore, a set of different playlists which tend to be typically religious or non-religious has been made. Depending on the results, the religious playlists could be split up further to detect if there are any difference between different religions. Differences are measured between contemporary music lists but could be further expanded to more classical oriented music. Both sets are mostly biased with so called _top_-songs.
 
+See [this page](https://github.com/MBWhitestone/Computational_Musicology/blob/master/README.md) for a correct rendering of the tables
+
 ####  Religious Playlists
 | Title                          | ID                     | Songs |
 | ------------------------------ | ---------------------- | ----- |
