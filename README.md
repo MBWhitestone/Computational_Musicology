@@ -33,12 +33,65 @@ See [this page](https://github.com/MBWhitestone/Computational_Musicology/blob/ma
 | Jewish Music - Driving         | 1m0HB9PIDiovCDtO4qc00l | 402   |
 
 Which makes up a total of **2105** _unique_ religious songs, which means
-there where 127 exact doubles in the set.$^1$
+there where 127 exact doubles in the set. [1]
 
 #### Non-religious Playlists
 > Notice that it is hard to tell whether all these top-songs are _really_ non-religous.
 
-| Title              | ID                     | Songs |
+<table>
+    <tr>
+        <th>Title</th>
+        <th>ID</th>
+        <th>Songs</th>
+    </tr>
+    <tr>
+        <td>Non Religious</td>
+        <td>4VuiQ0wD6Xh5uDYveV2b0C</td>
+        <td>183</td>
+    </tr>
+    <tr>
+        <td>Non Religious 3</td>
+        <td>0B6Lj8siocfyTOCzyeBYzX</td>
+        <td>59</td>
+    </tr>
+    <tr>
+        <td>Top 2017 </td>
+        <td>1DoUPHRIAC6YbEPiDf8IOd</td>
+        <td>99</td>
+    </tr>
+    <tr>
+        <td>Today's Top Hits</td>
+        <td>37i9dQZF1DXcBWIGoYBM5M</td>
+        <td>50</td>
+    </tr>
+    <tr>
+        <td>TOP 2019</td>
+        <td>208tdAvqyrtssZFKLktwkx</td>
+        <td>43</td>
+    </tr>
+    <tr>
+        <td>Top Tracks of 2018</td>
+        <td>37i9dQZF1DX1HUbZS4LEyL</td>
+        <td>100</td>
+    </tr>
+    <tr>
+        <td>Top of the Charts</td>
+        <td>7b2rMhQyuX3vkgQz2umhdV</td>
+        <td>107</td>
+    </tr>
+    <tr>
+        <td>Top allertijden</td>
+        <td>1nwCwjYUStN0xvoSmSgS9M</td>
+        <td>785</td>
+    </tr>
+    <tr>
+        <td>2019 Hits </td>
+        <td>4JkkvMpVl4lSioqQjeAL0q</td>
+        <td>128</td>
+    </tr>
+</table>
+
+<!-- | Title              | ID                     | Songs |
 | ------------------ | ---------------------- | ----- |
 | Non Religious      | 4VuiQ0wD6Xh5uDYveV2b0C | 183   |
 | Non Religious 3    | 0B6Lj8siocfyTOCzyeBYzX | 59    |
@@ -48,9 +101,11 @@ there where 127 exact doubles in the set.$^1$
 | Top Tracks of 2018 | 37i9dQZF1DX1HUbZS4LEyL | 100   |
 | Top of the Charts  | 7b2rMhQyuX3vkgQz2umhdV | 107   |
 | Top allertijden    | 1nwCwjYUStN0xvoSmSgS9M | 785   |
-| 2019 Hits          | 4JkkvMpVl4lSioqQjeAL0q | 128   |
+| 2019 Hits          | 4JkkvMpVl4lSioqQjeAL0q | 128   | -->
 
-Which makes up a total of **1565** _unique_ non-religious songs.$^1$
+Which makes up a total of **1565** _unique_ non-religious songs. [1]
+
+---
 
 [1] Using the
 [`distinct`](https://www.rdocumentation.org/packages/dplyr/versions/0.7.8/topics/distinct)
@@ -58,17 +113,14 @@ function from `R`.
 
 ## Results
 
-The following plot shows the distribution of different properties of a musical track:
-![](doc/box_normal.png)
+The following plot shows the distribution of different properties of a musical track. Because some properties had a few far outliers they had to be converted on a logaritmic scale (and renormalised between 0 and 1), which is shown on the right:
 
-Because some properties had a few far outliers they had to be converted on a logaritmic scale (and renormalised between 0 and 1):
-![](doc/box_log.png)
+<p float="left">
+  <img src="/doc/box_normal.png" width="75%" />
+  <img src="/doc/box_log.png" width="24.5%" />
+</p>
 
 ![](doc/avplane.png)
-
-
-
-
 
 ## Analysis
 There are already some interesting findings visible like the difference in danceability of religious and non religious music. On average religious music is less danceable but more acoustic compared to non-religious music. Speechiness and duration are quitte the same with exceptions to many outliers. On most properties Religious music has a very wide spread.
