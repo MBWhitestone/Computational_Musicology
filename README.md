@@ -189,7 +189,7 @@ The following plot shows the distribution of different properties of a musical t
 
 <p float="left">
   <img src="doc/box_normal.png" width="75%" alt="box 1"/>
-  <img src="doc/box_log.png" width="24%" alt="box 2"/>
+  <img src="doc/box_log.png" width="24.5%" alt="box 2"/>
 </p>
 
 The next visulalisation plots the different kinds of music on the arousal-valence plane:
