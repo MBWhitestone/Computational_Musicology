@@ -1,14 +1,17 @@
 # Computational Musicology
 #### _What makes music religious?_
 
-
-Github Page of the repository for the 2019 Computational Musicology course at the UvA
+Repository for the 2019 Computational Musicology course at the UvA.
 
 ---
 
 ## Introduction
 Music has been around since the history of mankind. However, where most of today's music tends to be used for personal entertainment, it was often used to give praise to deities. But are there any musicological properties of a piece of music that make it specifically suitable for religious purpouses? Bach himself sometimes re-used his 'pagan' music for religious purposes and vice versa giving an important role to lyrics. However, we also know that Bach was a master in the writing of baroque [affective](https://en.wikipedia.org/wiki/Doctrine_of_the_affections) music, indicating a carefull use of pitch, volume, tibre, and time for bringing music to it's purposes. So, even if there is some overlap between musical sound of pagan en religious music, there might be some aspects which fit just better for one of them.
 
+
+Look [here](mbwhitestone.github.io/Computational_Musicology) for the results.
+
+<!--
 ## Method
 To be able to answer the research question one has to compare religious music with
 non-religious music. This is implemented in `R` using the `spotifyr` module which gathers data from two types of playlists: _religious_ and _non-religious_. Both corpuses are more usefull for machine learning purposes, as for example classification, if they contain many songs. Therefore, a set of different playlists which tend to be typically religious or non-religious has been made. Depending on the results, the religious playlists could be split up further to detect if there are any difference between different religions. Differences are measured between contemporary music lists but could be further expanded to more classical oriented music. Both sets are mostly biased with so called _top_-songs.
@@ -86,7 +89,7 @@ non-religious music. This is implemented in `R` using the `spotifyr` module whic
         <td>402</td>
     </tr>
 </table>
-
+-->
 <!--
 | Title                          | ID                     | Songs |
 | ------------------------------ | ---------------------- | ----- |
@@ -103,7 +106,7 @@ non-religious music. This is implemented in `R` using the `spotifyr` module whic
 | BUDISTA                        | 1aBpY65gFEM88trlD8Beht | 238   |
 | Top Jewish Music               | 05Um5tgwbBWNAikYlwCId6 | 255   |
 | Jewish Music - Driving         | 1m0HB9PIDiovCDtO4qc00l | 402   | -->
-
+<!--
 Which makes up a total of **2105** _unique_ religious songs, which means
 there where 127 exact doubles in the set. [1]
 
@@ -162,7 +165,7 @@ there where 127 exact doubles in the set. [1]
         <td>128</td>
     </tr>
 </table>
-
+-->
 <!-- | Title              | ID                     | Songs |
 | ------------------ | ---------------------- | ----- |
 | Non Religious      | 4VuiQ0wD6Xh5uDYveV2b0C | 183   |
@@ -174,7 +177,7 @@ there where 127 exact doubles in the set. [1]
 | Top of the Charts  | 7b2rMhQyuX3vkgQz2umhdV | 107   |
 | Top allertijden    | 1nwCwjYUStN0xvoSmSgS9M | 785   |
 | 2019 Hits          | 4JkkvMpVl4lSioqQjeAL0q | 128   | -->
-
+<!--
 Which makes up a total of **1565** _unique_ non-religious songs, suprisingly enough there are no doubles here. [1]
 
 ---
@@ -199,5 +202,5 @@ The next visulalisation plots the different kinds of music on the arousal-valenc
 There are already some interesting findings visible like the difference in danceability of religious and non religious music. On average religious music is less danceable but more acoustic compared to non-religious music. Speechiness and duration are quite the same with exceptions to many outliers. On most properties Religious music has a very wide spread. Tempo is the same on average, however there is more spread in religious music.
 
 On the arousal-valence plane religious and non-religious music have kind of the same spread, however there is a big difference for individual religions. Buddhistic music tends to be quite sleepy while most Jewish music tends to be very happy. Christian and Islamic music have a wider spread like non-religious music, where the former is in the more angry corner of the plane. The different musical modes do not have much influence on the emotional placement. These results point to a research direction which focuses more on different aspects of music of different religions. For now it seems that there is indeed a difference between religious and non-religious music. However it might also be that the differences are just the result of comparing western music with non-western music. To test that hypothesis Christian and Islamic songs have to be compared more thoroughly with the non-religious data set.
-
+-->
 <!-- ## References -->
