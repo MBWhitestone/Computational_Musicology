@@ -9,7 +9,7 @@ Repository for the 2019 Computational Musicology course at the UvA.
 Music has been around since the history of mankind. However, where most of today's music tends to be used for personal entertainment, it was often used to give praise to deities. But are there any musicological properties of a piece of music that make it specifically suitable for religious purpouses? Bach himself sometimes re-used his 'pagan' music for religious purposes and vice versa giving an important role to lyrics. However, we also know that Bach was a master in the writing of baroque [affective](https://en.wikipedia.org/wiki/Doctrine_of_the_affections) music, indicating a carefull use of pitch, volume, tibre, and time for bringing music to it's purposes. So, even if there is some overlap between musical sound of pagan en religious music, there might be some aspects which fit just better for one of them.
 
 
-Look [here](mbwhitestone.github.io/Computational_Musicology) for the results.
+Look [here](https://mbwhitestone.github.io/Computational_Musicology/) for the results.
 
 <!--
 ## Method
